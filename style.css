@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.7%;
+  position: fixed;
+  z-index: 111;
+}
+
+nav .logo img {
+  height: 50px;
+  width: 170px;
+}
+
+.last-nav {
+  padding-right: 2%;
+}
+
+nav .center-nav,
+.last-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.center-nav a,
+.last-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #222222;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.last-nav a:hover {
+  cursor: pointer;
+  color: #726d6d;
+}
+
+.center-nav a:hover {
+  cursor: pointer;
+  color: #726d6d;
+}
+
+/* Hero sec */
+
+.hero-sec {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.hero-sec img {
+  padding-top: 1%;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+
+.hero-info {
+  position: absolute;
+  top: 25%;
+  left: 3%;
+}
+
+.hero-info h1 {
+  color: #fff;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 3.9rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.hero-info p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.8rem;
+}
+
+.hero-info .hero-btns {
+  display: flex;
+  gap: 3%;
+  margin-top: 4%;
+}
+
+.hero-btns button {
+  padding: 1rem 2rem;
+  outline: none;
+  background-color: transparent;
+  background: rgb(255, 91, 93);
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  transition: all 0.4s ease;
+}
+
+.hero-btns button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 125, 127);
+}
+
+.hero-btns button:first-child {
+  padding: 15px 80px;
+}
