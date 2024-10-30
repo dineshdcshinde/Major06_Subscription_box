@@ -130,3 +130,96 @@ nav .center-nav,
 .hero-btns button:first-child {
   padding: 15px 80px;
 }
+
+/* how-to-work-sec */
+
+.how-to-work-sec {
+  min-height: 100%;
+  width: 100%;
+}
+
+.how-to-work-sec h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display", sans-serif;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.work-container {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.work-item {
+  margin-top: 3%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-item img {
+  height: 180px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  display: inline-block;
+  margin-bottom: 1%;
+  transform: scale 0.9s ease-in;
+}
+
+.work-item img:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.work-item h4 {
+  margin-top: 1%;
+  font-size: 1.3rem;
+  margin-bottom: 1%;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+}
+
+.work-item p {
+  margin-top: 1%;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+}
+
+.clb-btn {
+  margin-top: 3%;
+}
+
+.join_clb {
+  font-size: 1.2rem;
+  padding: 0.7rem 3rem;
+
+  outline: none;
+  background-color: transparent;
+  background: rgb(255, 91, 93);
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.4s ease;
+}
+
+.join_clb:hover {
+  cursor: pointer;
+  background-color: rgb(255, 125, 127);
+}
