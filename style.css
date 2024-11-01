@@ -421,23 +421,23 @@ nav .center-nav,
   margin-top: 0;
 }
 
-.featuring-sec h2{
- padding-top: 2rem;
- margin-bottom: 1%;
- text-align: center;
- font-family: "Playfair Display", sans-serif;
- font-size: 2rem;
- font-weight: 400;
+.featuring-sec h2 {
+  padding-top: 2rem;
+  margin-bottom: 1%;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
-.featuring-sec p{
+.featuring-sec p {
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
 }
 
-.feature-productContainer{
+.feature-productContainer {
   width: 100%;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   gap: 2%;
   margin-top: 2rem;
@@ -445,11 +445,11 @@ nav .center-nav,
   overflow-x: auto;
 }
 
-.feature-productContainer::-webkit-scrollbar{
+.feature-productContainer::-webkit-scrollbar {
   display: none;
 }
 
-.feature-product{
+.feature-product {
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -458,37 +458,39 @@ nav .center-nav,
   align-items: stretch;
 }
 
-.feature-product img{
+.feature-product img {
   background-color: #fff;
   height: 200px;
   width: 200px;
   object-fit: cover;
   object-position: center;
   margin-bottom: 1.3rem;
-  padding:1%;
+  padding: 1%;
   display: inline-block;
   transition: transform 0.5s ease;
 }
 
-.feature-product img:hover{
+.feature-product img:hover {
   cursor: pointer;
   transform: scale(1.02);
 }
 
-.feature-product h4,p{
+.feature-product h4,
+p {
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
   padding: 1%;
 }
 
-.get-btn{
+.get-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2%;
+  padding-bottom: 2%;
 }
 
-.get-btn button{
+.get-btn button {
   font-size: 1.2rem;
   padding: 0.7rem 3rem;
   outline: none;
@@ -507,3 +509,338 @@ nav .center-nav,
   background-color: rgb(255, 125, 127);
 }
 
+/* weekly products Sec */
+.weekly_drops_sec {
+  min-height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.weekly_drops_sec h2 {
+  padding-top: 2rem;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.weekly_drops_sec p {
+  font-family: "Nunito Sans", sans-serif;
+  padding-top: 1%;
+  text-align: center;
+}
+
+.weekly_prodcts_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+  margin-top: 2%;
+  align-items: stretch;
+  overflow-x: auto;
+}
+
+.weekly_prodcts_container::-webkit-scrollbar {
+  display: none;
+}
+
+.weekly-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.3%;
+  align-items: stretch;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.weekly-product img {
+  height: 270px;
+  width: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.weekly-product h3,
+p,
+strong {
+  padding-top: 1%;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 1%;
+}
+
+.weekly-product h3 {
+  padding-top: 3%;
+}
+
+.start-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  padding: 2%;
+}
+
+.start-btn button {
+  font-size: 1.2rem;
+  padding: 0.7rem 3rem;
+  outline: none;
+  background-color: transparent;
+  background: rgb(255, 91, 93);
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.4s ease;
+}
+
+.start-btn button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 125, 127);
+}
+
+/* Deals and memebers sec  */
+.deal-memebers-sec {
+  min-height: 100%;
+  width: 100%;
+  background-image: url("./assets/photos/bg-deals-memebers-sec.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.deal-memebers-sec h2 {
+  padding-top: 2rem;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.deal-memebers-sec p {
+  font-family: "Nunito Sans", sans-serif;
+  padding-top: 1%;
+  text-align: center;
+}
+
+.head {
+  background-color: #e9e3dc;
+}
+
+/* track-container */
+.track-container {
+  height: 30%;
+  background-color: #e9e3dc;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 0.3%;
+}
+
+.track-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.track-item img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 3%;
+}
+
+.track-item h4,
+p {
+  padding-top: 1%;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 1%;
+}
+
+.join-btn-deals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9e3dc;
+  padding-bottom: 1%;
+}
+
+.join-btn-deals button {
+  font-size: 1.2rem;
+  padding: 0.7rem 3rem;
+  outline: none;
+  background-color: transparent;
+  background: rgb(255, 91, 93);
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.4s ease;
+}
+
+.join-btn-deals button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 125, 127);
+}
+
+/* plan section */
+.plan {
+  min-height: 100%;
+  width: 100%;
+  background-image: url("./assets/photos/replica_background_image_exact.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 3rem; */
+}
+
+.plan-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+}
+
+.plan-heading h2 {
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.plan-heading p {
+  font-family: "Playfiar Display", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.pricing{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* gap: 4%; */
+  margin: 0 auto;
+  margin-top: 3%;
+  max-width: 80%;
+
+}
+
+.pricing .annual, .sessional{
+  height: 450px;
+  width: 40%;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  border: 10px solid 
+  #fb6a66;
+  padding: 2%;
+  border-radius: 15px;
+  transition: 0.5s ease;
+}
+
+.sessional{
+
+  border: 10px solid 
+  transparent;
+}
+
+.annual .best-value{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.best-value h2{
+font-size: 2rem;
+font-weight: 400;
+margin-bottom: 1%;
+}
+
+.annual> p:nth-child(2){
+  color: #fb6a66;
+  /* margin: 2% 0; */
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.annual> p:nth-child(3){
+color:#290000;
+text-align: left;
+}
+
+.annual> p:nth-child(3) span{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.annual> p:nth-child(4){
+  text-align: left;
+  margin-bottom: 1%;
+}
+
+.best-value div{
+  background-color: 
+  #68ada1;
+  color: #fff;
+  height: 2rem;
+  width: 9rem;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+
+.sessional h2{
+  font-size: 2rem;
+font-weight: 400;
+margin-bottom: 1%;
+}
+
+
+.annual p, ul li{
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.annual ul, .sessional ul{
+  margin-top: 2%;
+list-style: none;
+}
+
+.annual ul li, .sessional ul li{
+  margin-bottom: 2%;
+color: 
+#290000;
+font-size: 1.2rem;}
+
+.annual li svg, .sessional li svg{
+  margin-right: 2%;
+}
+
+.sessional ul .cross{
+  text-decoration: line-through;
+}
+
+.sessional p:nth-child(2){ 
+  color: #717171;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.sessional p:nth-child(3){
+  text-align: left;
+  margin-bottom: 18%;
+}
